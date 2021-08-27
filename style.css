@@ -156,7 +156,7 @@ input[type="text"]:focus {
 
 #shows-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .show-info {
