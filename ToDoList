@@ -1,8 +1,7 @@
 Current list of problems:
 
-- mobile layout generally not working, lookat media query and CSS
-	text entry too small, searchbar small too
-	fill space and center
-- add page icon
-- add 'more info' button with an SVC
+- add page icon: make better!
+- add 'more info' button with an SVC icon for the show (and main actor?)
 - auto-scroll not quite working on mobile
+- when there is no blurb/title, the shwo result div is narrow. No sign of padding, what's going on?
+- placeholder actor image too wide. needs to be limited with a specific class.
