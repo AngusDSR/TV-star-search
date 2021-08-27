@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TV Show Search</title>
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="outer-container">	
+		
+		<div id="search-div">
+			<form class="init" id="search-form">
+				<h1><a href="#" id="logo-text">TV Star Search</a></h1>
+				<div id="spacer"></div>
+				<input type="text" name="query" placeholder="Enter actor's name..." class="search">
+			</form>
+			<div id="search-suggestions" class="init-suggestions"></div>
+		</div>
+
+		<div id="results-container" class="results-div">
+
+			<div id="actor-container">
+				<div id="actor-result" class="results-div">
+					<h1 id="actor-name"></h1>
+					<img id="actor-photo">
+				</div>
+			</div>
+		
+
+			<div id="shows-container">
+			</div>	
+
+			<div id="fellow-cast-outer-container">
+				<div id="fellow-cast-inner-container" class="results-div"></div>
+			</div>
+
+		</div>
+	</div>	
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
