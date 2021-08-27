@@ -171,9 +171,6 @@ const getTopShows = async (actorId) => {
 				  };
 	            } else {
 				  this.nextElementSibling.style.height = '154px';
-				  if (this.nextElementSibling.nextElementSibling) {
-				  	this.nextElementSibling.nextElementSibling.style.marginTop = '10px';
-				  };
 				  coStarsContainer.style.marginTop = '25px';
 	              coStarsContainer.style.position = "absolute";
 	              if (castShowing && prevShowDiv < thisDiv) {
