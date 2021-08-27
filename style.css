@@ -156,6 +156,10 @@ input[type="text"]:focus {
   object-fit: cover;
 }
 
+.actor-placeholder {
+  max-width: 100px;
+}
+
 #shows-container {
   display: flex;
   justify-content: center;
