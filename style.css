@@ -157,7 +157,9 @@ input[type="text"]:focus {
 }
 
 .actor-placeholder {
-  max-width: 100px;
+    width: 200px;
+    height: 295px;
+    object-fit: cover;
 }
 
 #shows-container {
