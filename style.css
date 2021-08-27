@@ -92,7 +92,6 @@ input[type="text"] {
   padding: 8px 15px;
   background-color: #0e1e24;
   color: #fff;
-  font-size: 2rem;
   transition: background-color 0s;
 }
 
@@ -229,6 +228,10 @@ input[type="text"]:focus {
 }
 
 @media (max-width: 768px) {
+  
+  #logo-text {
+      font-size: 3em;
+  }
   h1 {
     width: auto;
     font-size: 1em;
@@ -298,7 +301,7 @@ input[type="text"]:focus {
 
   input[type="text"] {
     width: 80%;
-    font-size: small;
+    font-size: 2rem;
   }
 
   #search-suggestions * {
