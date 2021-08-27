@@ -91,6 +91,7 @@ input[type="text"] {
   width: 50%;
   padding: 8px 15px;
   background-color: #0e1e24;
+  font-size: 2rem;
   color: #fff;
   transition: background-color 0s;
 }
@@ -300,7 +301,6 @@ input[type="text"]:focus {
 
   input[type="text"] {
     width: 80%;
-    font-size: 2rem;
   }
 
   #search-suggestions * {
