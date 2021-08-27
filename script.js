@@ -79,7 +79,6 @@ const getActorInfo = async (actorId) => {
       actorPhoto.alt = `Photo of ${actorNameResult}`;
     } else {
       actorPhoto.src = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png";
-      actorPhoto.classList.add('actor-placeholder')
     }
     actorName.innerText = actorNameResult;
   } catch (e) {
@@ -250,8 +249,8 @@ const getTopCast = async (showId) => {
 	        if (cast.person.image) {
 	          castImg.src = cast.person.image.medium;
 	        } else {
-	          castImg.src =
-	            "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png";
+	          castImg.src = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png";
+		  actorPhoto.classList.add('costar-placeholder');
 	        }
 	        castImg.alt = cast.person.name;
 	        coStarDiv.append(castImg);
