@@ -121,7 +121,6 @@ input[type="text"]:focus {
   padding: 10px;
   margin: 0;
   border: 0.5px solid #fff;
-  font-size: 2rem;
   color: #524e4d;
 }
 
@@ -306,6 +305,7 @@ input[type="text"]:focus {
 
   #search-suggestions * {
     padding: 5px;
+    font-size: 2rem;
   }
 
   .init-suggestions {
