@@ -79,7 +79,7 @@ const getActorInfo = async (actorId) => {
       actorPhoto.alt = `Photo of ${actorNameResult}`;
     } else {
       actorPhoto.src = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png";
-      actorPhoto.classList.add('placeholder')
+      actorPhoto.classList.add('actor-placeholder')
     }
     actorName.innerText = actorNameResult;
   } catch (e) {
