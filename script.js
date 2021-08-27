@@ -250,7 +250,7 @@ const getTopCast = async (showId) => {
 	          castImg.src = cast.person.image.medium;
 	        } else {
 	          castImg.src = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png";
-		  actorPhoto.classList.add('costar-placeholder');
+		  castImg.classList.add('costar-placeholder');
 	        }
 	        castImg.alt = cast.person.name;
 	        coStarDiv.append(castImg);
