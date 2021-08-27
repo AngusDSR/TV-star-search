@@ -235,8 +235,11 @@ input[type="text"]:focus {
   opacity: 0;
 }
 
-@media screen and (max-width: 768px) {
-
+@media (max-width: 768px) {
+  
+  #logo-text {
+      font-size: 3em;
+  }
   h1 {
     width: auto;
     font-size: 1em;
@@ -291,7 +294,7 @@ input[type="text"]:focus {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   #outer-container {
     width: 95%;
   }
@@ -343,12 +346,6 @@ input[type="text"]:focus {
   img {
     width: 90%;
   }
-  
-  #shows-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
   
  .show-spacer {
   display: block;
