@@ -156,12 +156,6 @@ input[type="text"]:focus {
   object-fit: cover;
 }
 
-.actor-placeholder {
-    width: 200px;
-    height: 295px;
-    object-fit: cover;
-}
-
 #shows-container {
   display: flex;
   justify-content: center;
@@ -212,6 +206,12 @@ input[type="text"]:focus {
   display: flex;
   flex-direction: column;
   padding: 0px 20px;
+}
+
+.costar-placeholder {
+    width: 200px;
+    height: 295px;
+    object-fit: cover;
 }
 
 .results-div {
