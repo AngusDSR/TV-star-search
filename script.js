@@ -105,7 +105,7 @@ const getTopShows = async (actorId) => {
         if (castCredRes.data.indexOf(shows) < 3) {
 		if (castCredRes.data.indexOf(shows) == 2) {
 		  showsCont.style.justifyContent = 'space-evenly'
-	  }
+	  	};
           const showDiv = document.createElement("DIV");
           const showTitle = document.createElement("H2");
           const showImg = document.createElement("IMG");
