@@ -1,0 +1,8 @@
+Current list of problems:
+
+- mobile layout generally not working, lookat media query and CSS
+	text entry too small, searchbar small too
+	fill space and center
+- add page icon
+- add 'more info' button with an SVC
+- auto-scroll not quite working on mobile
