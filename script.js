@@ -78,8 +78,8 @@ const getActorInfo = async (actorId) => {
       actorPhoto.src = profileRes.data.image.medium;
       actorPhoto.alt = `Photo of ${actorNameResult}`;
     } else {
-      actorPhoto.src =
-      	"https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+      actorPhoto.src = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png";
+      actorPhoto.classList.add('placeholder')
     }
     actorName.innerText = actorNameResult;
   } catch (e) {
