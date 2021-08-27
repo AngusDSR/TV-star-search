@@ -159,6 +159,10 @@ input[type="text"]:focus {
   justify-content: center;
 }
 
+.show-spacer {
+  display: none;
+}
+
 .show-info {
   max-width: 18rem;
   display: flex;
@@ -330,6 +334,10 @@ input[type="text"]:focus {
   img {
     width: 90%;
   }
+  
+ .show-spacer {
+  display: block;
+}
 
   .show-blurb {
     font-size: 12px;
