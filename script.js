@@ -103,6 +103,9 @@ const getTopShows = async (actorId) => {
       );
       for (let shows of castCredRes.data) {
         if (castCredRes.data.indexOf(shows) < 3) {
+	  if (castCredRes.data.indexOf(shows) > 1) {
+		  showsCont.style.justifyContent = 'space-between'
+	  }
           const showDiv = document.createElement("DIV");
           const showTitle = document.createElement("H2");
           const showImg = document.createElement("IMG");
