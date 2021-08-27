@@ -112,6 +112,7 @@ const getTopShows = async (actorId) => {
           const ratingStars = document.createElement("P");
           const showSummary = document.createElement("P");
           const mobileCastSpacer = document.createElement("DIV");
+	  mobileCastSpacer.classList.add('show-spacer');
           showsCont.append(showDiv);
           showsCont.append(mobileCastSpacer);
           showDiv.append(showTitle);
