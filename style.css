@@ -212,6 +212,13 @@ input[type="text"]:focus {
     object-fit: cover;
 }
 
+.show-placeholder {
+  width: 210px; 
+  height: 295px; 
+  object-fit: contain;
+}
+  
+
 .results-div {
   background-color: #25373e;
   border-radius: 5px;
