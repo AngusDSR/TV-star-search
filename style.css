@@ -236,7 +236,6 @@ input[type="text"]:focus {
 .show-placeholder {
   width: 210px; 
   height: 295px; 
-  object-fit: contain;
 }
 
 @media (max-width: 768px) {
