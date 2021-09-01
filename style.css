@@ -210,14 +210,7 @@ input[type="text"]:focus {
     width: 200px;
     height: 295px;
     object-fit: cover;
-}
-
-.show-placeholder {
-  width: 210px; 
-  height: 295px; 
-  object-fit: contain;
-}
-  
+}  
 
 .results-div {
   background-color: #25373e;
@@ -238,6 +231,12 @@ input[type="text"]:focus {
 
 .hidden {
   opacity: 0;
+}
+
+.show-placeholder {
+  width: 210px; 
+  height: 295px; 
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
