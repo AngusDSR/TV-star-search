@@ -136,7 +136,7 @@ const getTopShows = async (actorId) => {
             showImg.src = shows._embedded.show.image.medium;
           } else {
             showImg.src =
-              "https://resize.hswstatic.com/w_250/gif/retro-tvl-250x150.jpg";
+              "https://www.pngkit.com/png/detail/233-2334771_orange-classic-set-png-glq-qm-question-mark.png";
           }
           showImg.alt = `Cover art for ${shows._embedded.show.name}`;
           if (shows._embedded.show.summary.length && shows._embedded.show.summary.length > 250) {
