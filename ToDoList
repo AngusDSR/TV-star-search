@@ -1,8 +1,9 @@
 Current list of problems:
 
 - add page icon: make better!
+- favicon needs to work with dark mode
+- autogenerate alt text for 'cover art', or waste of attention? Get feedback.
 - add a readme with a description and link to the live page (e.g. https://github.com/jostylr/mathpebbles)
 - add 'more info' button with an SVC icon for the show (and main actor?)
 - auto-scroll not quite working on mobile
 - when there is no blurb/title, the shwo result div is narrow. No sign of padding, what's going on?
-- placeholder actor image too wide. needs to be limited with a specific class.
